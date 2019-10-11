@@ -1,5 +1,5 @@
-# google_api_practice
-This project is built with Vue.js and Google Map API, used to practice how to create map, marker, and info window on a single page application.
+# # Google Api Practice: Map
+This project is built with Vue.js and Google Map API, and is used to practice creating map, marker, and info window on a single page application.
 
 
 ## Project First Look
