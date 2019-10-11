@@ -16,8 +16,6 @@ Clone this repository to your local machine
 $ git clone https://github.com/smallpaes/google-map-api-practice-map.git
 ```
 
-<p>&nbsp;</p>
-
 ### Setup App
 **1. Enter the project folder**
 
@@ -31,7 +29,7 @@ $ cd google-map-api-practice-map
 $ npm install
 ```
 
-**4. Place Google Map Project API Key**
+**3. Place Google Map Project API Key**
 > /public/index.html
 
 ```
