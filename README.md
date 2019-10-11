@@ -1,29 +1,50 @@
 # google_api_practice
+This project is built with Vue.js and Google Map API, used to practice how to create map, marker, and info window on a single page application.
+
+
+## Project First Look
+![Project First Look](google_api_practice3.gif)
+
+<p>&nbsp;</p>
 
 ## Project setup
+### Clone
+
+Clone this repository to your local machine
+
 ```
-npm install
+$ git clone https://github.com/smallpaes/google-map-api-practice-map.git
 ```
 
-### Compiles and hot-reloads for development
+<p>&nbsp;</p>
+
+### Setup App
+**1. Enter the project folder**
+
 ```
-npm run serve
+$ cd google-map-api-practice-map
 ```
 
-### Compiles and minifies for production
+**2. Install packages via npm**
+
 ```
-npm run build
+$ npm install
 ```
 
-### Run your tests
+**4. Place Google Map Project API Key**
+> /public/index.html
+
 ```
-npm run test
+<script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEy>"></script>
 ```
 
-### Lints and fixes files
+**4. Compiles and hot-reloads for development**
 ```
-npm run lint
+$ npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+___
+
+
+## Authors
+- [Mike Huang](https://github.com/smallpaes)
