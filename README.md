@@ -44,5 +44,9 @@ $ npm run serve
 ___
 
 
+## Related Blog Post
+
+- [Medium: [筆記] 從零接觸 Google Map API：在 Vue.js 中實作地圖、地標、訊息視窗](http://tiny.cc/aibdez)
+
 ## Authors
 - [Mike Huang](https://github.com/smallpaes)
