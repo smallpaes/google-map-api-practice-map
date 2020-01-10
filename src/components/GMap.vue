@@ -42,7 +42,7 @@ export default {
     };
   },
   watch: {
-    center(val) {
+    center() {
       this.resetCenter();
       this.setMarker();
     }
@@ -53,6 +53,7 @@ export default {
   },
   methods: {
     initMap() {
+      const google = window.google
       this.map = new google.maps.Map(document.getElementById("map"), {
         center: this.center,
         zoom: this.zoom,
@@ -73,6 +74,8 @@ export default {
       this.markers = [];
     },
     setMarker() {
+      const google = window.google
+      
       // clear existing markers
       this.clearMarkers();
 

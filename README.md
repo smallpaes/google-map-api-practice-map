@@ -33,12 +33,17 @@ $ npm install
 > /public/index.html
 
 ```
-<script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEy>"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=<YOUR_API_KEY>"></script>
 ```
 
 **4. Compiles and hot-reloads for development**
 ```
 $ npm run serve
+```
+
+**5. Visit the page**
+```
+http://localhost:8080/#/restaurants
 ```
 
 ___
